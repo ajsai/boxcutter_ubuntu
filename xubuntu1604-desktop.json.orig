@@ -1,0 +1,15 @@
+{
+  "_comment": "Build with `packer build -var-file=ubuntu1604-desktop.json ubuntu.json`",
+  "vm_name": "xubuntu1604-desktop",
+  "desktop": "true",
+  "locale": "ja_JP.UTF-8",
+  "cpus": "1",
+  "disk_size": "130048",
+  "iso_checksum": "599f2c4091b83fecf9b953862ad8028caabdee51",
+  "iso_checksum_type": "sha1",
+  "iso_name": "xubuntu-16.04.2-desktop-amd64.iso",
+  "iso_url": "http://ubuntutym2.u-toyama.ac.jp/xubuntu/16.04/release/xubuntu-16.04.2-desktop-amd64.iso",
+  "memory": "1024",
+  "preseed": "preseed.cfg",
+  "vagrantfile_template": "tpl/vagrantfile-ubuntu1604-desktop.tpl"
+}
